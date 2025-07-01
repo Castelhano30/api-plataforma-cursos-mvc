@@ -1,7 +1,7 @@
 
 # API Plataforma de Cursos - Projeto FullStack 
 
-Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento FullStack, seguindo o padrão MVC e com o Backend pronto para execução.
+Este projeto foi desenvolvido como parte da disciplina de Back-end Node.JS com SQL, com o Backend pronto para execução.
 
 ## 🚀 Tecnologias Utilizadas
 - Node.js
