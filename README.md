@@ -1,12 +1,13 @@
-# API Plataforma de Cursos - Projeto FullStack
 
-Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento FullStack, utilizando o padrão MVC e tecnologias modernas de backend.
+# API Plataforma de Cursos - Projeto FullStack (Padrão MVC)
+
+Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento FullStack, seguindo o padrão MVC e com o Backend pronto para execução.
 
 ## 🚀 Tecnologias Utilizadas
 - Node.js
 - Express
 - Prisma ORM
-- PostgreSQL (banco hospedado no Railway)
+- PostgreSQL (hospedado no Railway)
 - JWT para autenticação
 - Bcrypt para criptografia de senhas
 - Cookies para controle de login
@@ -21,42 +22,48 @@ src/
 └── server.js     # Inicialização do servidor
 prisma/
 └── schema.prisma # Modelos do banco
+.env              # Configuração pronta para o banco
 ```
 
 ## ⚙️ Como Executar o Projeto
-1. Clone o repositório:
+
+**O projeto já está configurado para rodar direto, sem necessidade de ajustes.**
+
+### Passos:
+
+1. Clonar o repositório:
 ```
 git clone https://github.com/Castelhano30/api-plataforma-cursos-mvc.git
 ```
 
-2. Instale as dependências:
+2. Navegar até a pasta do projeto:
+```
+cd api-plataforma-cursos-mvc
+```
+
+3. Instalar as dependências:
 ```
 npm install
 ```
 
-3. Crie um arquivo `.env` na raiz seguindo o modelo:
-```
-DATABASE_URL=postgresql://usuario:senha@host:porta/banco
-JWT_SECRET=sua_chave_secreta
-PORT=3000
-```
-
-4. Gere o Prisma Client:
+4. Gerar o Prisma Client:
 ```
 npx prisma generate
 ```
 
-5. Rode as migrations para criar as tabelas no banco:
+5. Criar as tabelas no banco (opcional, o banco já está configurado no Railway):
 ```
 npx prisma migrate dev
 ```
 
-6. Inicie o servidor:
+6. Iniciar o servidor:
 ```
 npm start
 ```
 
-## ✅ Funcionalidades
+O servidor irá rodar na porta `3000` conforme o `.env`.
+
+## ✅ Funcionalidades Disponíveis
 - Cadastro de Aluno
 - Login com JWT via cookie
 - Listagem de Cursos
@@ -64,4 +71,7 @@ npm start
 - Visualização dos cursos inscritos
 
 ## 💻 Observações
-Este projeto foi desenvolvido seguindo as boas práticas de MVC e as orientações da disciplina. Está pronto para testes e validação.
+- O `.env` já está pronto e configurado para o banco no Railway
+- O projeto foi testado e está funcionando
+- Está preparado para avaliação acadêmica
+
