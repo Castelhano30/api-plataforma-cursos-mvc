@@ -1,5 +1,5 @@
 
-# API Plataforma de Cursos - Projeto FullStack (Padrão MVC)
+# API Plataforma de Cursos - Projeto FullStack 
 
 Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento FullStack, seguindo o padrão MVC e com o Backend pronto para execução.
 
@@ -15,14 +15,14 @@ Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento FullSt
 ## 📁 Estrutura do Projeto
 ```
 src/
-├── controllers/  # Lógica das funcionalidades
-├── middlewares/  # Autenticação JWT
-├── routes/       # Arquivos de rotas organizados
-├── app.js        # Configuração do Express
-└── server.js     # Inicialização do servidor
+├── controllers/  
+├── middlewares/  
+├── routes/       
+├── app.js        
+└── server.js     
 prisma/
-└── schema.prisma # Modelos do banco
-.env              # Configuração pronta para o banco
+└── schema.prisma 
+.env              
 ```
 
 ## ⚙️ Como Executar o Projeto
@@ -73,5 +73,4 @@ O servidor irá rodar na porta `3000` conforme o `.env`.
 ## 💻 Observações
 - O `.env` já está pronto e configurado para o banco no Railway
 - O projeto foi testado e está funcionando
-- Está preparado para avaliação acadêmica
 
