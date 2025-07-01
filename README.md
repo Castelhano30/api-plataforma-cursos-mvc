@@ -12,19 +12,6 @@ Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento FullSt
 - Bcrypt para criptografia de senhas
 - Cookies para controle de login
 
-## 📁 Estrutura do Projeto
-```
-src/
-├── controllers/  
-├── middlewares/  
-├── routes/       
-├── app.js        
-└── server.js     
-prisma/
-└── schema.prisma 
-.env              
-```
-
 ## ⚙️ Como Executar o Projeto
 
 **O projeto já está configurado para rodar direto, sem necessidade de ajustes.**
