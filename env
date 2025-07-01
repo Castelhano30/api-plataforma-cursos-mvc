@@ -1,4 +1,0 @@
-
-DATABASE_URL=postgresql://postgres:MCpLEzovAWFLZUMzPWibKguDvNVtbtbH@postgres.railway.internal:5432/railway
-JWT_SECRET=chavesecretaparatestes
-PORT=3000
